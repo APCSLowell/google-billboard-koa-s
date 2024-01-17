@@ -43,3 +43,4 @@ public static boolean isPrime(double num)
   }
   return true;
 } 
+}
