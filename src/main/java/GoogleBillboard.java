@@ -8,8 +8,7 @@ public class GoogleBillboard {
 		boolean isFound;
 int count;
 
-public void setup()  
-{            
+        
   isFound = false;
   count = 2;
   while (isFound == false)
@@ -23,7 +22,7 @@ public void setup()
     }
     count++;
   }
-}  
+  
 	}
 	
 
