@@ -11,7 +11,7 @@ int count;
         
   isFound = false;
   count = 2;
-  while (isFound == false)
+  while (isFound == false && count+10<e.length())
   {
     String digits = e.substring(count, count+10);
     double dNum = Double.parseDouble(digits);
